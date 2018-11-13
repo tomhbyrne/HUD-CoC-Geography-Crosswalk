@@ -2,3 +2,10 @@
 .Rhistory
 .RData
 .Ruserdata
+/output/clipped_tract.dbf
+/output/clipped_tract.prj
+/output/clipped_tract.rds
+/output/clipped_tract.shp
+/output/clipped_tract.shx
+/data/CoC_GIS_NatlTerrDC_Shapefile_2017
+/data/tlgdb_2017_a_us_substategeo.gdb
