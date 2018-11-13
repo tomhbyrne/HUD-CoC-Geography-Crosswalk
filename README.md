@@ -31,9 +31,10 @@ There are also two intermediary output files:
 ## Data
 The above described outputs are created using the following inputs:
 
-1. __CoC_GIS_NatlTerrDC_Shapefile_2017.gdb__: A shapefile of the 2017 HUD CoC boundaries.  This file was obtained from [this HUD website](https://www.hudexchange.info/programs/coc/gis-tools/)  
+1. __CoC_GIS_NatlTerrDC_Shapefile_2017.gdb__: A shapefile of the 2017 HUD CoC boundaries.  This file was obtained from [this HUD website](https://www.hudexchange.info/programs/coc/gis-tools/).  A zipped version of this file
+is included in the data folder. 
 
-2. __tlgdb_2017_a_us_substategeo.gdb__: The 2017 TIGER/Line Census tract shapefile.  This file was obtained from [this Census Bureau website](https://www.census.gov/cgi-bin/geo/shapefiles/index.php)
+2. __tlgdb_2017_a_us_substategeo.gdb__: The 2017 TIGER/Line Census tract shapefile.  This file was obtained from [this Census Bureau website](https://www.census.gov/cgi-bin/geo/shapefiles/index.php).  This file is too large to store on Github but can be obtained at the link.
 
 3. __2017_pit.csv__: The 2017 HUD Point-in-Time (PIT) count data.  This file was obtained from [this HUD website](https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/)
 
