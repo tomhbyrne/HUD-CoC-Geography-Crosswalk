@@ -2,6 +2,14 @@
 
 This project creates a geographic crosswalk between 2017 U.S. Department of Housing and Urban Development (HUD) Continuum of Care (CoC) boundaries and 2017 U.S. Census Bureau geographies (Census tracts and counties).
 
+If using any of the files from this project for published work, please cite this Github repository as their source.  
+
+In describing the methodology used to match counties and CoCs, please also cite [the original paper](https://www.tandfonline.com/doi/abs/10.1111/j.1467-9906.2012.00643.x) that describes the basic methodology used in conducting the county-CoC geographic crosswalk. 
+
+
+Please bring any errors/questions/suggestions to the attention of this project's creator, Tom Byrne, at [tbyrne@bu.edu](tbyrne@bu.edu) 
+
+## Project description 
 
 Below we describe the main __outputs__ of this project, as well as its __data__ inputs and __programs__ used to create the __outputs__. 
 
@@ -26,6 +34,8 @@ The above described outputs are created using the following inputs:
 1. __CoC_GIS_NatlTerrDC_Shapefile_2017.gdb__: A shapefile of the 2017 HUD CoC boundaries.  This file was obtained from [this HUD website](https://www.hudexchange.info/programs/coc/gis-tools/)  
 
 2. __tlgdb_2017_a_us_substategeo.gdb__: The 2017 TIGER/Line Census tract shapefile.  This file was obtained from [this Census Bureau website](https://www.census.gov/cgi-bin/geo/shapefiles/index.php)
+
+3. __2017_pit.csv__: The 2017 HUD Point-in-Time (PIT) count data.  This file was obtained from [this HUD website](https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/)
 
 ## Programs 
 
