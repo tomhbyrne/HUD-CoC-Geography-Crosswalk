@@ -6,12 +6,12 @@ This document summarizes the fields in each of the three main output files:
     -  _tract_fips_:  The 2017 Census Tract FIPS code.
     -  _in_2017_PIT_: A flag indicating whether a particular CoC is in the 2017 HUD Point in Time (PIT) count file.  This is necessary because there is a slight mismatch between the CoCs in the 2017 CoC boundary shapefile and the 2017 PIT count data. 
     - _total_population_: An estimate of the total population in each tract from the American Community Survey 2012-2016 5-Year Estimates
-    -  total_pop_in_poverty_: An An estimate of the total population in each tract with income below the poverty threshold from the American Community Survey 2012-2016 5-Year Estimates
+    -  _total_pop_in_poverty_: An An estimate of the total population in each tract with income below the poverty threshold from the American Community Survey 2012-2016 5-Year Estimates
     
 2. __coc_population.csv__: 
     - _coc_number_: The 2017 HUD CoC Number
     - _total_population_: An estimate of the total population in each CoC based on estimates from the American Community Survey 2012-2016 5-Year Estimates.
-    -  total_pop_in_poverty_: An An estimate of the total population in each CoC with income below the poverty threshold based on estimates from the American Community Survey 2012-2016 5-Year Estimates.
+    -  _total_pop_in_poverty_: An An estimate of the total population in each CoC with income below the poverty threshold based on estimates from the American Community Survey 2012-2016 5-Year Estimates.
     
 3. __county_coc_match.csv__: 
     - _county_fips_: The 5-digit county FIPS code
