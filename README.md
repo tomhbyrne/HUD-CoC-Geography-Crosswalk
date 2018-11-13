@@ -12,7 +12,7 @@ There are three main output files from this project:
 
 2. __county_coc_match.csv__: This is a geographic crosswalk that matches counties to CoCs.  CoCs can match to multiple counties, and a single county can match to each CoC.  Thus, the file has one row for each unique county-CoC combination. Note that not all counties match to a CoC. 
 
-3 __coc_population.csv__:  This is a file that includes the total population and total population in poverty for each CoC.  These files are based on tract level total population and total population in poverty estimates from the U.S. Census Bureau's American Community Survey 2011-2016 5-Year Estimates
+3. __coc_population.csv__:  This is a file that includes the total population and total population in poverty for each CoC.  These files are based on tract level total population and total population in poverty estimates from the U.S. Census Bureau's American Community Survey 2011-2016 5-Year Estimates
 
 There are also two intermediary output files:
 
