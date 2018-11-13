@@ -7,7 +7,7 @@ Below we describe the main __outputs__ of this project, as well as its __data__ 
 
 ## Outputs 
 There are three main output files from this project: 
-
+ 
 1. __tract_coc_match.csv__: This is a geographic crosswalk that matches each Census tract to a CoC. There is one row for each Census tract.  Note that not all Census tracts match to a CoC.
 
 2. __county_coc_match.csv__: This is a geographic crosswalk that matches counties to CoCs.  CoCs can match to multiple counties, and a single county can match to each CoC.  Thus, the file has one row for each unique county-CoC combination. Note that not all counties match to a CoC. 
